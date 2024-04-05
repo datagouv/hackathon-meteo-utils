@@ -1,7 +1,7 @@
 ## Utilitaires pour l'accès aux données data.gouv.fr
 
 1. Les données Météo-France sont accessibles sur https://meteo.data.gouv.fr : vous pouvez directement les télécharger sur la plateforme. C'est une opération manuelle
-2. Ces données sont également présentes sur https://wwW.data.gouv.fr : la plateforme data.gouv.fr contient l'ensemble du catalogue nationale, pas uniquement les données météo
+2. Ces données sont également présentes sur https://www.data.gouv.fr : la plateforme data.gouv.fr contient l'ensemble du catalogue nationale, pas uniquement les données météo
 
 ### Télécharger l'ensemble des données d'un jeu de données sur meteo.data.gouv.fr ou data.gouv.fr
 
@@ -27,7 +27,7 @@ Ces données sont les résultats des derniers runs de modèle disponibles (ARPEG
 
 Pour des raisons d'ergonomie de la plateforme, nous avons décidé de ne référencer que le dernier run des différents modèles.
 
-Pour télécharger le dernier run disponible, vous pouvez utiliser le script : download_latest_run_pnt.py de la manière suivante :
+Pour télécharger le dernier run disponible, vous pouvez utiliser le script : download_pnt.py de la manière suivante :
 
 ```
 python download_pnt.py <motcle> <optional:datedurun>
