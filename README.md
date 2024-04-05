@@ -39,7 +39,6 @@ Vous trouverez les mots-clés à utiliser dans le tableau ci-dessous.
 
 ATTENTION : les volumes de données sont importants ! Ne téléchargez les données que si vous en avez besoin.
 
-|--|--|--|
 | Volumétrie estimative | Données | mot-clé |
 | -- | -- | -- |
 | 7,6G | /arome-om/ANTIL | arome-om-antil |
@@ -51,4 +50,10 @@ ATTENTION : les volumes de données sont importants ! Ne téléchargez les donn�
 |  20G | ./arome/0025 | arome0025 |
 |  13G | ./arpege/01 | arpege01 |
 |  21G | ./arpege/025 | arpege025 |
-|--|--|--|
+
+### API data.gouv.fr 
+
+Toutes les métadonnées des jeux de données disponibles sur data.gouv.fr sont récupérables sur l'API, par exemple `https://www.data.gouv.fr/api/1/datasets/65bd19226c4e3fcbf4948f99` il suffit de modifier le slug du datasets (soit son `id` soit son `slug`)
+
+Doc sur l'API : https://doc.data.gouv.fr/api/reference/
+
